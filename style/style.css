@@ -17,6 +17,8 @@
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+
 }
 
 /* Main styles */
@@ -24,6 +26,9 @@
 header {
     background-color: #FFF8F3;
     padding-top: 50px;
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
 
 }
 
@@ -60,4 +65,41 @@ nav ul a {
 
 .orange {
     color: #FD6E0A;
+}
+
+#banner {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 46px 38px 0px 230px;
+    max-width: ;
+}
+
+#banner .content h3 {
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+#banner .content h2 {
+    font-size: 85px;
+    font-weight: 700px;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+
+#banner .content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+}
+
+#banner .banner-image img {
+    max-width: 585px;
+    vertical-align: middle;
 }
